@@ -1,0 +1,8 @@
+---
+applications:
+- name: "dm-spring-01"
+  memory: 1024M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  env:
+    ATOMIST_TEAM: A4PNO823O
